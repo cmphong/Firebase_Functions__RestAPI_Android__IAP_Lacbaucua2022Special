@@ -1,0 +1,25 @@
+{
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        
+        "index_backup.js"
+      ]
+    }
+  ],
+  "emulators":{
+    "functions":{
+      "port": 5001,
+      "host": "192.168.111.254"
+    },
+    "hosting":{
+      "port": 5000
+    }
+  }
+}
